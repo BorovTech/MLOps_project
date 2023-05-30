@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/da5baa22bef341329a0fceb37c0031ba/artifacts
+end_time: 1684938107782
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: da5baa22bef341329a0fceb37c0031ba
+run_name: sincere-mole-728
+run_uuid: da5baa22bef341329a0fceb37c0031ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684938105093
+status: 3
+tags: []
+user_id: stepankulzhik
