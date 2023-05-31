@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/368362cde1c3474eb42b6cf2b323555c/artifacts
+end_time: 1685536099202
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 368362cde1c3474eb42b6cf2b323555c
+run_name: peaceful-duck-807
+run_uuid: 368362cde1c3474eb42b6cf2b323555c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685536096857
+status: 3
+tags: []
+user_id: stepankulzhik

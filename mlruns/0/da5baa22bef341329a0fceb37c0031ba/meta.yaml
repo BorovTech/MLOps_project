@@ -1,8 +1,9 @@
 artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/da5baa22bef341329a0fceb37c0031ba/artifacts
+deleted_time: 1685536247699
 end_time: 1684938107782
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: da5baa22bef341329a0fceb37c0031ba
 run_name: sincere-mole-728
 run_uuid: da5baa22bef341329a0fceb37c0031ba
