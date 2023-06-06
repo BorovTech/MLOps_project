@@ -86,7 +86,7 @@ def get_batch(df: pd.DataFrame, batch_size: int = 32):
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
 
-    BATCH_SIZE = 50
+    BATCH_SIZE = 100
     df = pd.read_csv("Models/data/val.csv")
     data = get_batch(df, BATCH_SIZE)
     X = data.drop("y", axis=1)

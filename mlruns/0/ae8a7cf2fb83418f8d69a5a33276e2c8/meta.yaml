@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/ae8a7cf2fb83418f8d69a5a33276e2c8/artifacts
+end_time: 1685536782971
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ae8a7cf2fb83418f8d69a5a33276e2c8
+run_name: gregarious-flea-77
+run_uuid: ae8a7cf2fb83418f8d69a5a33276e2c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685536780790
+status: 3
+tags: []
+user_id: stepankulzhik

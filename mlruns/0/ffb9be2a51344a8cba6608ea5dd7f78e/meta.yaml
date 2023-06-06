@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/ffb9be2a51344a8cba6608ea5dd7f78e/artifacts
+end_time: 1685536767834
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ffb9be2a51344a8cba6608ea5dd7f78e
+run_name: dapper-asp-820
+run_uuid: ffb9be2a51344a8cba6608ea5dd7f78e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685536765518
+status: 3
+tags: []
+user_id: stepankulzhik

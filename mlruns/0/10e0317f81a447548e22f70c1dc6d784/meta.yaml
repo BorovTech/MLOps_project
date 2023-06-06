@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/10e0317f81a447548e22f70c1dc6d784/artifacts
+end_time: 1685536772899
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10e0317f81a447548e22f70c1dc6d784
+run_name: nebulous-gnat-513
+run_uuid: 10e0317f81a447548e22f70c1dc6d784
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685536770731
+status: 3
+tags: []
+user_id: stepankulzhik
