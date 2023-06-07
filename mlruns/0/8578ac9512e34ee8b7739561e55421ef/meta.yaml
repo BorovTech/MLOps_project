@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/8578ac9512e34ee8b7739561e55421ef/artifacts
+end_time: 1685536284193
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8578ac9512e34ee8b7739561e55421ef
+run_name: auspicious-colt-538
+run_uuid: 8578ac9512e34ee8b7739561e55421ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685536281998
+status: 3
+tags: []
+user_id: stepankulzhik

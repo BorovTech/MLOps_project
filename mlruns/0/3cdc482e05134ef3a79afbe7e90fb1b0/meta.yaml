@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/3cdc482e05134ef3a79afbe7e90fb1b0/artifacts
+deleted_time: 1685536247699
+end_time: 1685536058582
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 3cdc482e05134ef3a79afbe7e90fb1b0
+run_name: resilient-bear-241
+run_uuid: 3cdc482e05134ef3a79afbe7e90fb1b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685536058573
+status: 4
+tags: []
+user_id: stepankulzhik

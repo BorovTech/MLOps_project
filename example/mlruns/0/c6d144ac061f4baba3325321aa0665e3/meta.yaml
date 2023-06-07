@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/example/mlruns/0/c6d144ac061f4baba3325321aa0665e3/artifacts
+end_time: 1684939551510
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c6d144ac061f4baba3325321aa0665e3
+run_name: nimble-crab-396
+run_uuid: c6d144ac061f4baba3325321aa0665e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684939549029
+status: 3
+tags: []
+user_id: stepankulzhik

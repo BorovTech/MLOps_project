@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/ac3d86ab1e654b8eb8a9a74a25c396bc/artifacts
+end_time: 1685536278678
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ac3d86ab1e654b8eb8a9a74a25c396bc
+run_name: youthful-stag-606
+run_uuid: ac3d86ab1e654b8eb8a9a74a25c396bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685536276510
+status: 3
+tags: []
+user_id: stepankulzhik

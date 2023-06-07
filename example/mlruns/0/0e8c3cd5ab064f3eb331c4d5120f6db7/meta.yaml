@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/example/mlruns/0/0e8c3cd5ab064f3eb331c4d5120f6db7/artifacts
+end_time: 1684938928664
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0e8c3cd5ab064f3eb331c4d5120f6db7
+run_name: efficient-turtle-306
+run_uuid: 0e8c3cd5ab064f3eb331c4d5120f6db7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684938926375
+status: 3
+tags: []
+user_id: stepankulzhik

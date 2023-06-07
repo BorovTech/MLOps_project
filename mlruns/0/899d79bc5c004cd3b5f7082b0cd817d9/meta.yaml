@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/899d79bc5c004cd3b5f7082b0cd817d9/artifacts
+end_time: 1685536272342
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 899d79bc5c004cd3b5f7082b0cd817d9
+run_name: gifted-wren-839
+run_uuid: 899d79bc5c004cd3b5f7082b0cd817d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685536270069
+status: 3
+tags: []
+user_id: stepankulzhik

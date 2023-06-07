@@ -1,0 +1,24 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.16
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.3.2
+model_uuid: c94e9f4b96094fe780713101e6310c91
+run_id: 899d79bc5c004cd3b5f7082b0cd817d9
+signature:
+  inputs: '[{"name": "month", "type": "long"}, {"name": "duration", "type": "long"},
+    {"name": "nr.employed", "type": "double"}, {"name": "poutcome", "type": "long"},
+    {"name": "emp.var.rate", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2023-05-31 12:31:10.082908'
