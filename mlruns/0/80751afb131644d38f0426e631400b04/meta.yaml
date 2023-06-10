@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/80751afb131644d38f0426e631400b04/artifacts
+end_time: 1686420643103
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 80751afb131644d38f0426e631400b04
+run_name: sassy-zebra-728
+run_uuid: 80751afb131644d38f0426e631400b04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686420640830
+status: 3
+tags: []
+user_id: stepankulzhik

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/a3165343885a4b78a41ae39ef9482430/artifacts
+end_time: 1686420597496
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a3165343885a4b78a41ae39ef9482430
+run_name: shivering-stork-724
+run_uuid: a3165343885a4b78a41ae39ef9482430
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686420595112
+status: 3
+tags: []
+user_id: stepankulzhik

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/0433c66680fb406e9ba56fc011307645/artifacts
+end_time: 1686420415388
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0433c66680fb406e9ba56fc011307645
+run_name: youthful-ape-797
+run_uuid: 0433c66680fb406e9ba56fc011307645
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686420413201
+status: 3
+tags: []
+user_id: stepankulzhik

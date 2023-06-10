@@ -34,14 +34,13 @@ if __name__ == "__main__":
     np.random.seed(40)
 
     # Read the wine-quality csv file from the URL
-    csv_url = (
-        "https://raw.githubusercontent.com/mlflow/mlflow/master/tests/datasets/winequality-red.csv"
-    )
+    csv_url = "https://raw.githubusercontent.com/mlflow/mlflow/master/tests/datasets/winequality-red.csv"
     try:
         data = pd.read_csv(csv_url, sep=";")
     except Exception as e:
         logger.exception(
-            "Unable to download training & test CSV, check your internet connection. Error: %s", e
+            "Unable to download training & test CSV, check your internet connection. Error: %s",
+            e,
         )
 
     # Split the data into training and test sets. (0.75, 0.25) split.
@@ -87,7 +86,10 @@ if __name__ == "__main__":
             # please refer to the doc for more information:
             # https://mlflow.org/docs/latest/model-registry.html#api-workflow
             mlflow.sklearn.log_model(
-                lr, "model", registered_model_name="ElasticnetWineModel", signature=signature
+                lr,
+                "model",
+                registered_model_name="ElasticnetWineModel",
+                signature=signature,
             )
         else:
             mlflow.sklearn.log_model(lr, "model", signature=signature)

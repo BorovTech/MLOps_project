@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/ed570b5c20d24654aa040768a411493f/artifacts
+end_time: 1686420379559
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed570b5c20d24654aa040768a411493f
+run_name: crawling-pig-919
+run_uuid: ed570b5c20d24654aa040768a411493f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686420377241
+status: 3
+tags: []
+user_id: stepankulzhik
