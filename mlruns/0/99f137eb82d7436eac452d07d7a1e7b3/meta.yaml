@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/99f137eb82d7436eac452d07d7a1e7b3/artifacts
+end_time: 1686422874118
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 99f137eb82d7436eac452d07d7a1e7b3
+run_name: auspicious-loon-301
+run_uuid: 99f137eb82d7436eac452d07d7a1e7b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686422871836
+status: 3
+tags: []
+user_id: stepankulzhik

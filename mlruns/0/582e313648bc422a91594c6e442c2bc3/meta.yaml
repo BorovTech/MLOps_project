@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/582e313648bc422a91594c6e442c2bc3/artifacts
+end_time: 1686422516010
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 582e313648bc422a91594c6e442c2bc3
+run_name: grandiose-toad-288
+run_uuid: 582e313648bc422a91594c6e442c2bc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686422513699
+status: 3
+tags: []
+user_id: stepankulzhik

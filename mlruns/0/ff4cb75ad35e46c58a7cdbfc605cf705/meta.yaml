@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/ff4cb75ad35e46c58a7cdbfc605cf705/artifacts
+end_time: 1686422928496
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ff4cb75ad35e46c58a7cdbfc605cf705
+run_name: upbeat-auk-873
+run_uuid: ff4cb75ad35e46c58a7cdbfc605cf705
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686422926218
+status: 3
+tags: []
+user_id: stepankulzhik
