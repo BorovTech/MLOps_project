@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1686423277298
+current_stage: Production
+description: null
+last_updated_timestamp: 1686514818170
+name: logreg
+run_id: 171a27f82f4343059e2911a00442b78c
+run_link: null
+source: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/171a27f82f4343059e2911a00442b78c/artifacts/model
+status: READY
+status_message: null
+user_id: null
+version: 10

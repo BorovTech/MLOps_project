@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/7c22d4ae028b4c2494b1c8f55c57f8f1/artifacts
+end_time: 1686422537037
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c22d4ae028b4c2494b1c8f55c57f8f1
+run_name: incongruous-bear-396
+run_uuid: 7c22d4ae028b4c2494b1c8f55c57f8f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686422534846
+status: 3
+tags: []
+user_id: stepankulzhik

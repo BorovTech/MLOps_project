@@ -93,9 +93,11 @@ if __name__ == "__main__":
     y = data["y"]
 
     with mlflow.start_run():
+        MODEL_NAME = "logreg"
+
+        mlflow.set_tag("model_name", MODEL_NAME)
         # TODO: argparse the model name
         # Loading the model
-        MODEL_NAME = "logreg"
         model = load_model(MODEL_NAME)
 
         # Making the predictions and comparing them with ground truth values
