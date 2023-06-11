@@ -9,31 +9,7 @@ import warnings
 from pathlib import Path
 from sklearn.model_selection import GridSearchCV
 from sklearn.utils.validation import check_is_fitted
-def load_model(model_name: str):
-    """
-    A function that loads a given model
 
-    Args:
-    path (str) - Path to a file with a model, presumably with .joblib extension
-
-    Returns:
-    An object of our model
-    """
-    origin_path = Path("Models/data/models/")
-    path = origin_path / Path(model_name + ".joblib")
-    return load(path)
-
-
-def dump_model(model, path: str) -> None:
-    """
-    A function that dumps the given model to a specified file
-    (the path to a file should exist!!!)
-
-    Args:
-    model - a model that we want to save
-    path - a path to our model
-    """
-    dump(model, path)
 
 def bootstrap_sample(batch: pd.DataFrame,n: int, k: int):
     '''
@@ -104,18 +80,18 @@ def refit(path_to_model: str, data: pd.DataFrame):
     Returns:
     best_model - the resulting best model selected with GridSearchCV
     
-    Also, dumps the new best model to the same location as it was retrieved from
+    Also, dumps the new best model to the same folder with the name best + model_name.joblib
     '''
 
     assert 'y' in data.columns, 'Target variable is not in the DataFrame, the name of target columns must be "y"'
     y_train = data['y']
     X_train = data.drop('y',axis=1)
-    model = load_model(path_to_model)
+    model = load(path_to_model)
     model_name = type(model).__name__
     param_grid = select_grid(model_name)
     grid_search = GridSearchCV(model, param_grid, cv=5, scoring='f1')
     grid_search.fit(X_train,y_train)
     best_model = grid_search.best_estimator_
     check_is_fitted(best_model, msg="The model was not fitted :-(")
-    dump_model(best_model,path_to_model)
+    dump(path_to_model,'best '+model_name +'.joblib')
     return best_model
