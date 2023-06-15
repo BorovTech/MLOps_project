@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1686560701962
+current_stage: None
+description: null
+last_updated_timestamp: 1686560701962
+name: forest
+run_id: daf207bdf2474101af6835a8f4aa6aa3
+run_link: null
+source: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/daf207bdf2474101af6835a8f4aa6aa3/artifacts/model
+status: READY
+status_message: null
+user_id: null
+version: 9

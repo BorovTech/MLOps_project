@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/fbe96c11610d4b538b3829a72d007a54/artifacts
+end_time: 1686519055835
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fbe96c11610d4b538b3829a72d007a54
+run_name: thundering-sow-624
+run_uuid: fbe96c11610d4b538b3829a72d007a54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686519052323
+status: 3
+tags: []
+user_id: stepankulzhik

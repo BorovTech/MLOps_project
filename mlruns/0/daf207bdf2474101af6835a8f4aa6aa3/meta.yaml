@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/daf207bdf2474101af6835a8f4aa6aa3/artifacts
+end_time: 1686560701971
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: daf207bdf2474101af6835a8f4aa6aa3
+run_name: marvelous-mole-469
+run_uuid: daf207bdf2474101af6835a8f4aa6aa3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686560696438
+status: 3
+tags: []
+user_id: stepankulzhik

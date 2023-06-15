@@ -9,6 +9,7 @@ import mlflow
 import warnings
 from mlflow.models.signature import infer_signature
 from pathlib import Path
+from utils import *
 
 # import argparse
 import logging
@@ -43,9 +44,8 @@ def load_model(model_name: str):
     Returns:
     An object of our model
     """
-    origin_path = Path("Models/data/models/")
-    path = origin_path / Path(model_name + ".joblib")
-    return load(path)
+    origin_path = Path(f"Models/src/better_{model_name}.joblib")
+    return load(origin_path)
 
 
 def dump_model(model, path: str) -> None:
@@ -72,15 +72,7 @@ def get_batch(df: pd.DataFrame, batch_size: int = 32):
     Returns:
     pd.DataFrame - a DataFrame of that batch only with the necessary features
     """
-    list_of_features = [
-        "month",
-        "duration",
-        "nr.employed",
-        "poutcome",
-        "emp.var.rate",
-        "y",
-    ]
-    return df.sample(batch_size)[list_of_features]
+    return df.sample(batch_size)
 
 
 if __name__ == "__main__":
@@ -93,7 +85,7 @@ if __name__ == "__main__":
     y = data["y"]
 
     with mlflow.start_run():
-        MODEL_NAME = "logreg"
+        MODEL_NAME = input("Enter a model name: ")
 
         mlflow.set_tag("model_name", MODEL_NAME)
         # TODO: argparse the model name
@@ -103,6 +95,12 @@ if __name__ == "__main__":
         # Making the predictions and comparing them with ground truth values
         preds = model.predict(X)
         acc, f1 = calc_metrics(preds, y)
+
+        if (f1 < 0.75) or (acc < 0.75):
+            print("THE MODEL NEEDS TO BE RETRAINED!!!")
+            new_df = bootstrap_sample(data, int(BATCH_SIZE / 2), 5)
+            new_df = concat_df(new_df, df)
+            updated_model = refit(f"Models/src/better_{MODEL_NAME}.joblib", new_df)
 
         print(f"Model: {MODEL_NAME}")
         print(f"Accuracy score on batch of size {BATCH_SIZE} is: {acc}")

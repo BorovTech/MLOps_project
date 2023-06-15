@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/4f2c9de72d384dca99c823ae61ee99cd/artifacts
+deleted_time: 1686518975755
+end_time: 1686518665261
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 4f2c9de72d384dca99c823ae61ee99cd
+run_name: bold-goose-968
+run_uuid: 4f2c9de72d384dca99c823ae61ee99cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686518661812
+status: 4
+tags: []
+user_id: stepankulzhik

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/352668c82cb44b5d834f24cb8585393d/artifacts
+end_time: 1686516967809
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 352668c82cb44b5d834f24cb8585393d
+run_name: hilarious-worm-407
+run_uuid: 352668c82cb44b5d834f24cb8585393d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686516963115
+status: 3
+tags: []
+user_id: stepankulzhik

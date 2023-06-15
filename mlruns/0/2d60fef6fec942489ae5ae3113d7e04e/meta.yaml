@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/2d60fef6fec942489ae5ae3113d7e04e/artifacts
+deleted_time: 1686518975752
+end_time: 1686517023103
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 2d60fef6fec942489ae5ae3113d7e04e
+run_name: likeable-bee-922
+run_uuid: 2d60fef6fec942489ae5ae3113d7e04e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686517021930
+status: 4
+tags: []
+user_id: stepankulzhik

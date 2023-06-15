@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/eb33bc56da644e45a553fb4a7c102a44/artifacts
+end_time: 1686560708690
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb33bc56da644e45a553fb4a7c102a44
+run_name: vaunted-cow-4
+run_uuid: eb33bc56da644e45a553fb4a7c102a44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686560705199
+status: 3
+tags: []
+user_id: stepankulzhik

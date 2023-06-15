@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/a5956b74c33f443f8fdb731f4054ac51/artifacts
+end_time: 1686517083691
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a5956b74c33f443f8fdb731f4054ac51
+run_name: mercurial-finch-859
+run_uuid: a5956b74c33f443f8fdb731f4054ac51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686517077936
+status: 3
+tags: []
+user_id: stepankulzhik

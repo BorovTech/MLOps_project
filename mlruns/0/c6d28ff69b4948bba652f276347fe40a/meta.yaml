@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/c6d28ff69b4948bba652f276347fe40a/artifacts
+end_time: 1686518735289
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c6d28ff69b4948bba652f276347fe40a
+run_name: aged-moose-623
+run_uuid: c6d28ff69b4948bba652f276347fe40a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686518731885
+status: 3
+tags: []
+user_id: stepankulzhik

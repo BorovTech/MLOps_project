@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/d88472339a1341d0bb996a70703cf9ed/artifacts
+end_time: 1686517111942
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d88472339a1341d0bb996a70703cf9ed
+run_name: youthful-cub-196
+run_uuid: d88472339a1341d0bb996a70703cf9ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686517103057
+status: 3
+tags: []
+user_id: stepankulzhik

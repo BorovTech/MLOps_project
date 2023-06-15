@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/9a7c59e5ab964441a22da90e1c182f88/artifacts
+end_time: 1686518642611
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a7c59e5ab964441a22da90e1c182f88
+run_name: capricious-seal-85
+run_uuid: 9a7c59e5ab964441a22da90e1c182f88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686518639047
+status: 3
+tags: []
+user_id: stepankulzhik

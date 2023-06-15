@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/d5c87d9c69d34784bfdd0a10f3629e05/artifacts
+end_time: 1686518584329
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5c87d9c69d34784bfdd0a10f3629e05
+run_name: handsome-stoat-200
+run_uuid: d5c87d9c69d34784bfdd0a10f3629e05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686518579629
+status: 3
+tags: []
+user_id: stepankulzhik

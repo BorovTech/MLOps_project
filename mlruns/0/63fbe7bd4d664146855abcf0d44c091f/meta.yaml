@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/63fbe7bd4d664146855abcf0d44c091f/artifacts
+end_time: 1686517091401
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 63fbe7bd4d664146855abcf0d44c091f
+run_name: casual-deer-173
+run_uuid: 63fbe7bd4d664146855abcf0d44c091f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686517088094
+status: 3
+tags: []
+user_id: stepankulzhik

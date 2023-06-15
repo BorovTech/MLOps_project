@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/07d60133070e4611a02448f737557730/artifacts
+end_time: 1686518657078
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 07d60133070e4611a02448f737557730
+run_name: auspicious-midge-85
+run_uuid: 07d60133070e4611a02448f737557730
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686518653303
+status: 3
+tags: []
+user_id: stepankulzhik

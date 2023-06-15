@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/4c5544db32214ea5b91a0732e9991a4c/artifacts
+end_time: 1686518741461
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4c5544db32214ea5b91a0732e9991a4c
+run_name: adorable-fox-689
+run_uuid: 4c5544db32214ea5b91a0732e9991a4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686518737938
+status: 3
+tags: []
+user_id: stepankulzhik

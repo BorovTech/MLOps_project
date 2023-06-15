@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/29711ca8cf4b40c584c00e9fd347c40c/artifacts
+end_time: 1686560685088
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29711ca8cf4b40c584c00e9fd347c40c
+run_name: learned-kite-92
+run_uuid: 29711ca8cf4b40c584c00e9fd347c40c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686560679993
+status: 3
+tags: []
+user_id: stepankulzhik

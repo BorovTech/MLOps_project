@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/643cb3226f9648e095d2aaa992638716/artifacts
+end_time: 1686519076907
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 643cb3226f9648e095d2aaa992638716
+run_name: chill-ox-844
+run_uuid: 643cb3226f9648e095d2aaa992638716
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686519073592
+status: 3
+tags: []
+user_id: stepankulzhik

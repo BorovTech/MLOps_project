@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/fbac80fc14d74bc5ad5e794bb023a815/artifacts
+end_time: 1686519098179
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fbac80fc14d74bc5ad5e794bb023a815
+run_name: nebulous-conch-489
+run_uuid: fbac80fc14d74bc5ad5e794bb023a815
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686519095073
+status: 4
+tags: []
+user_id: stepankulzhik

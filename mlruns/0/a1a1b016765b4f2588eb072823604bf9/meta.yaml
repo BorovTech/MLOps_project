@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/a1a1b016765b4f2588eb072823604bf9/artifacts
+end_time: 1686519091620
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a1a1b016765b4f2588eb072823604bf9
+run_name: luxuriant-perch-569
+run_uuid: a1a1b016765b4f2588eb072823604bf9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686519088457
+status: 3
+tags: []
+user_id: stepankulzhik

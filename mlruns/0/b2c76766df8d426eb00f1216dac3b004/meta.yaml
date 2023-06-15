@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/b2c76766df8d426eb00f1216dac3b004/artifacts
+deleted_time: 1686518984353
+end_time: 1686516914841
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b2c76766df8d426eb00f1216dac3b004
+run_name: youthful-grouse-942
+run_uuid: b2c76766df8d426eb00f1216dac3b004
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686516908053
+status: 3
+tags: []
+user_id: stepankulzhik

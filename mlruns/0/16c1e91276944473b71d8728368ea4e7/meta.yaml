@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/16c1e91276944473b71d8728368ea4e7/artifacts
+deleted_time: 1686518975750
+end_time: 1686518721119
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 16c1e91276944473b71d8728368ea4e7
+run_name: delicate-turtle-31
+run_uuid: 16c1e91276944473b71d8728368ea4e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686518717955
+status: 4
+tags: []
+user_id: stepankulzhik

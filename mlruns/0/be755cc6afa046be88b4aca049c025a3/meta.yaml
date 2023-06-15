@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/be755cc6afa046be88b4aca049c025a3/artifacts
+end_time: 1686519065139
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be755cc6afa046be88b4aca049c025a3
+run_name: awesome-moose-150
+run_uuid: be755cc6afa046be88b4aca049c025a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686519060001
+status: 3
+tags: []
+user_id: stepankulzhik

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/d32e67e0fae1473f961701294ea5df27/artifacts
+deleted_time: 1686518975755
+end_time: 1686516980133
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: d32e67e0fae1473f961701294ea5df27
+run_name: funny-cub-844
+run_uuid: d32e67e0fae1473f961701294ea5df27
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686516978827
+status: 4
+tags: []
+user_id: stepankulzhik

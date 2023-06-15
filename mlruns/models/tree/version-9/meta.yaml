@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1686519091614
+current_stage: None
+description: null
+last_updated_timestamp: 1686519091614
+name: tree
+run_id: a1a1b016765b4f2588eb072823604bf9
+run_link: null
+source: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/a1a1b016765b4f2588eb072823604bf9/artifacts/model
+status: READY
+status_message: null
+user_id: null
+version: 9
