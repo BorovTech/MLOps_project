@@ -10,12 +10,15 @@ import warnings
 from mlflow.models.signature import infer_signature
 from pathlib import Path
 from utils import *
-
-# import argparse
 import logging
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
+
+warnings.filterwarnings("ignore")
+
+BATCH_SIZE = 100
+METRICS_THRESHOLD = 0.75
 
 
 def calc_metrics(preds: np.ndarray, truth: np.ndarray) -> tuple:
@@ -70,25 +73,26 @@ def get_batch(df: pd.DataFrame, batch_size: int = 32):
     batch_size (int) - A size of batch to extract from a DataFrame
 
     Returns:
-    pd.DataFrame - a DataFrame of that batch only with the necessary features
+    pd.DataFrame - a DataFrame of that batch
     """
     return df.sample(batch_size)
 
 
 if __name__ == "__main__":
-    warnings.filterwarnings("ignore")
-
-    BATCH_SIZE = 100
+    # Taking the data from the validation set and getting the batch of it
     df = pd.read_csv("Models/data/val.csv")
     data = get_batch(df, BATCH_SIZE)
+
+    # Droping the y value for inference
     X = data.drop("y", axis=1)
     y = data["y"]
 
     with mlflow.start_run():
         MODEL_NAME = input("Enter a model name: ")
 
+        # Setting a tag, so that it would be easier to track models in MLflow UI
         mlflow.set_tag("model_name", MODEL_NAME)
-        # TODO: argparse the model name
+
         # Loading the model
         model = load_model(MODEL_NAME)
 
@@ -96,16 +100,24 @@ if __name__ == "__main__":
         preds = model.predict(X)
         acc, f1 = calc_metrics(preds, y)
 
-        if (f1 < 0.75) or (acc < 0.75):
+        # If either of metrics drops below the threshold value - retrain the model
+        if (f1 < METRICS_THRESHOLD) or (acc < METRICS_THRESHOLD):
             print("THE MODEL NEEDS TO BE RETRAINED!!!")
+            # Getting bootstrap samples
             new_df = bootstrap_sample(data, int(BATCH_SIZE / 2), 5)
-            new_df = concat_df(new_df, df)
-            updated_model = refit(f"Models/src/better_{MODEL_NAME}.joblib", new_df)
+
+            # Concating them with original
+            original_df = pd.read_csv("Models/data/train.csv")
+            new_df = concat_df(new_df, original_df)
+
+            # Training the model on a new df + saving it
+            model = refit(f"Models/src/better_{MODEL_NAME}.joblib", new_df)
 
         print(f"Model: {MODEL_NAME}")
         print(f"Accuracy score on batch of size {BATCH_SIZE} is: {acc}")
         print(f"F1-score on batch of size {BATCH_SIZE} is: {f1}")
 
+        # Logging metrics
         mlflow.log_metric("accuracy", acc)
         mlflow.log_metric("f1-score", f1)
 
@@ -113,6 +125,7 @@ if __name__ == "__main__":
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
+        # Logging the model
         mlflow.sklearn.log_model(
             model, "model", registered_model_name=MODEL_NAME, signature=signature
         )
