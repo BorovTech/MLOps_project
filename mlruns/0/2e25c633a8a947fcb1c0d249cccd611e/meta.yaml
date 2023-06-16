@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stepankulzhik/Documents/GitHub/MLOps_project/mlruns/0/2e25c633a8a947fcb1c0d249cccd611e/artifacts
+end_time: 1686916282480
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2e25c633a8a947fcb1c0d249cccd611e
+run_name: indecisive-pig-718
+run_uuid: 2e25c633a8a947fcb1c0d249cccd611e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686916277952
+status: 3
+tags: []
+user_id: stepankulzhik
